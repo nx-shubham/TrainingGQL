@@ -108,7 +108,7 @@ hasTouched = () => {
                     <select className="input" onChange={this.handleRole('role')} value={role} onBlur={() => this.onBlur('role')}>
                       <option>Select Role</option>
                       <option>Head-Trainee</option>
-                      <option>Trainee</option>
+                      <option>Trainee</option> 
                       <option>Reviewer</option>
                     </select>
                     <br /><br />
