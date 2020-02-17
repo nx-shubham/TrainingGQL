@@ -107,9 +107,9 @@ hasTouched = () => {
                     <h3>Select Role</h3>
                     <select className="input" onChange={this.handleRole('role')} value={role} onBlur={() => this.onBlur('role')}>
                       <option>Select Role</option>
-                      <option>Head-Trainee</option>
-                      <option>Trainee</option> 
-                      <option>Reviewer</option>
+                      <option>head-trainer</option>
+                      <option>trainee</option> 
+                      <option>trainer</option>
                     </select>
                     <br /><br />
                     {(this.state.error.role) ? <p style={{ color: 'red' }}>role is required</p> : ''}
